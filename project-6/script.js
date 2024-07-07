@@ -18,4 +18,3 @@ const showTime = () => {
   time.innerHTML = `${hr}:${mins}:${secs}`;
   timeformate.innerHTML = hr > 12 ? "PM" : "AM";
 };
-// test cmmit
