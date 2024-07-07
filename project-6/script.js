@@ -1,4 +1,5 @@
 let time = document.querySelector("#time");
+
 let timeformate = document.querySelector("#timeformate");
 document.addEventListener("DOMContentLoaded", () => {
   setInterval(showTime, 1000);
