@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <header class="signup-header">
+          <h1>Signup</h1>
+        </header>
+        <main class="signup-body">
+          <form action="#">
+            <p>
+              <label for="name">Full Name</label>
+              <input type="text" placeholder="type Name Here" id="name" />
+              <i class="fa-solid fa-xmark"></i>
+              <span id="nameError"></span>
+            </p>
+            <p>
+              <label for="email">Emai</label>
+              <input type="email" placeholder="xyz@gmail.com" id="email" />
+              <i class="fa-solid fa-xmark"></i>
+              <span id="nameError"></span>
+            </p>
+            <p>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                placeholder="at least 8 charaters"
+                id="password"
+              />
+            </p>
+            <p>
+              <input type="button" value="Create Account" />
+            </p>
+          </form>
+        </main>
+        <footer class="signup-footer">
+          <p>Already have an account <a href="">Login</a></p>
+        </footer>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  box-sizing: border-box;
+}
+.stopwatch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.timerFisplay {
+  background-color: black;
+  padding: 12px 80px;
+  font-size: 45px;
+  border-radius: 8px;
+}
+.buttons {
+  margin-top: 18px;
+}
+.buttons button {
+  border: none;
+  margin-inline: 10px;
+  padding: 10px 15px;
+  width: 70px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: var(--clr);
+  cursor: pointer;
+}
